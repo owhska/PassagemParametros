@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2F1F6"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+   <EditText
+       android:layout_width="match_parent"
+       android:id="@+id/input_email"
+       android:layout_height="60dp"
+       android:hint="E-mail"
+       android:layout_marginTop="250dp"
+       android:layout_marginBottom="10dp"
+       android:background="@color/white"
+       android:textSize="20sp"
+       android:inputType="textEmailAddress"
+       android:padding="10dp"
+       android:layout_marginStart="16dp"
+       android:layout_marginEnd="16dp"/>
+
+   <EditText
+       android:layout_width="match_parent"
+       android:id="@+id/input_password"
+       android:layout_height="60dp"
+       android:hint="Senha"
+       android:background="@color/white"
+       android:textSize="20sp"
+       android:inputType="textPassword"
+       android:padding="10dp"
+       android:layout_marginStart="16dp"
+       android:layout_marginEnd="16dp"/>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="horizontal">
+
+      <Button
+          android:layout_width="180dp"
+          android:layout_height="50dp"
+          android:id="@+id/btn_login"
+          android:layout_weight="1"
+          android:layout_marginEnd="5dp"
+          android:layout_marginStart="15dp"
+          android:text="Login"/>
+
+      <Button
+          android:layout_width="180dp"
+          android:layout_height="50dp"
+          android:id="@+id/btn_register"
+          android:layout_weight="1"
+          android:layout_marginStart="5dp"
+          android:layout_marginEnd="15dp"
+          android:text="Cadastrar"/>
+
+   </LinearLayout>
+
+</LinearLayout>
