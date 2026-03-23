@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PassagemParametros">
         <activity
+            android:name=".TelaFinal"
+            android:exported="false" />
+        <activity
+            android:name=".ConfirmarDados"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
